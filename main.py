@@ -1,6 +1,6 @@
 result = 0
 while (num := input("Введите число или ENTER для выхода - ")) != '':
-    result += int(num)
+    result = result + int(num)
 print(result)
 
 
